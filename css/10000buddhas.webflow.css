@@ -283,6 +283,22 @@
   object-fit: fill;
 }
 
+.vimeo {
+  position:relative;
+  left:10%;
+  top:0%;
+  right:0%;
+  bottom: 0%;
+  z-index:auto;
+  width:80%;
+  max-width: 100%;
+  margin-top: 60px;
+  float: none;
+  text-align: left;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 .figure {
   width: 80%;
   margin-left: 10%;
