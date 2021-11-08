@@ -283,15 +283,14 @@
 }
 
 .video1 {
-  position:relative;
-  left:10%;
-  top:0%;
+  position:absolute;
+  top:1080px;
   right:0%;
   bottom: 0%;
   z-index:auto;
   width:80%;
   max-width: 100%;
-  margin-top: 1080px;
+  margin-top: 0px;
   float: none;
   text-align: left;
   -o-object-fit: fill;
