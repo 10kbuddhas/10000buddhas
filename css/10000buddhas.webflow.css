@@ -283,7 +283,8 @@
 }
 
 .video1 {
-  position:absolute;
+  position:relative;
+  clear:left;
   top:1080px;
   right:0%;
   bottom: 0%;
