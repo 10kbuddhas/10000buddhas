@@ -292,7 +292,7 @@
   width:80%;
   max-width: 100%;
   margin-top: 0px;
-  float: left;
+  float: none;
   text-align: left;
   -o-object-fit: fill;
   object-fit: fill;
