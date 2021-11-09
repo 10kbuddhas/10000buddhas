@@ -480,7 +480,7 @@
     bottom: auto;
     overflow: auto;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     margin-bottom: 0px;
     border-radius: 0px;
     background-image: url('../images/1_intro_edited_lowres.jpg');
@@ -498,7 +498,7 @@
     display: block;
     overflow: auto;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     float: left;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.5)));
     background-clip: border-box;
@@ -531,7 +531,6 @@
   .text-block-2 {
     position: relative;
     top: 60px;
-    margin-top: auto;
     margin-bottom: 80px;
     margin-left: 20px;
     float: left;
