@@ -411,7 +411,23 @@
 .bodyheader-copy {
   position: relative;
   width: 70%;
-  margin-top: 0px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 15%;
+  float: left;
+  clear: left;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.bodyheader-copy-main {
+  position: relative;
+  width: 70%;
+  margin-top: 1200px;
   margin-bottom: 60px;
   margin-left: 15%;
   float: left;
