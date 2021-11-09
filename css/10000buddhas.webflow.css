@@ -521,6 +521,38 @@
     object-fit: fill;
   }
   
+  .bodyheader {
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 3%;
+    float: left;
+    clear: left;
+    font-family: Exo, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  
+  .bodyheader2 {
+    position: relative;
+    width: 90%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    float: left;
+    clear: left;
+    font-family: Exo, sans-serif;
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  
   .bodytext {
     position: relative;
     width: 94%;
@@ -559,13 +591,22 @@
   .text-block-5 {
     position: relative;
     top: -48px;
-    width: 100%;
-    margin-left: 0%;
+    width: 94%;
+    margin-left: 3%;
     float: none;
     clear: both;
     font-family: Exo, sans-serif;
     color: #fff;
     font-size: 18px;
     line-height: 30px;
-}
+  }
+  
+  .figure {
+    width: 94%;
+    margin-left: 3%;
+    padding-bottom: 20px;
+    color: #afafaf;
+    font-style: italic;
+    text-align: left;
+  }
 }
