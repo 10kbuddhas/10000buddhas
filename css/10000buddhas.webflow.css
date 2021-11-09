@@ -600,6 +600,7 @@
     display: block;
     overflow: visible;
     margin-top:0;
+    margin-bottom:300px;
     width: 100%;
     height: auto;
     float: left;
