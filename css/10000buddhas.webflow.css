@@ -109,13 +109,11 @@
 }
 
 .headerimage {
-  position: absolute;
+  position: relative;
   bottom: auto;
   overflow: visible;
   width: 100%;
-  height: auto;
-  max-height: 1080px;
-  min-height: 1080px;
+  padding-top: 56%;
   margin-bottom: 0px;
   border-radius: 0px;
   background-image: url('../images/1_intro_edited_lowres.jpg');
@@ -128,12 +126,12 @@
 }
 
 .textbg {
-  position: relative;
+  position: absolute;
   top: auto;
   display: block;
   overflow: visible;
   width: 50%;
-  height: auto;
+  height: 100%;
   max-height: none;
   max-width: 600px;
   min-height: 1080px;
@@ -299,23 +297,6 @@
   height: 100%;
 }
 
-.video2 {
-  position:relative;
-  left:10%;
-  top:0%;
-  right:0%;
-  bottom: 0%;
-  z-index:auto;
-  width:80%;
-  height: 1080px;
-  max-width: 100%;
-  margin-top: 0px;
-  float: none;
-  text-align: left;
-  -o-object-fit: fill;
-  object-fit: fill;
-}
-
 .figure {
   width: 80%;
   margin-left: 10%;
@@ -476,11 +457,6 @@
   object-fit: fill;
 }
 
-.iframe {
-  width: 1920px;
-  height: 1080px;
-}
-
 @media screen and (max-width: 1170px) {
   .bodyheader-copy-main {
     position: relative;
@@ -494,20 +470,6 @@
     color: #fff;
     font-size: 30px;
     line-height: 30px;
-    -o-object-fit: fill;
-    object-fit: fill;
-  }
-  
-  .video1 {
-    position:relative;
-    left:0%;
-    top:0%;
-    right:0%;
-    bottom: 0%;
-    z-index:auto;
-    width:100%;
-    float: none;
-    text-align: left;
     -o-object-fit: fill;
     object-fit: fill;
   }
@@ -647,36 +609,6 @@
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     background-clip: border-box;
     -webkit-text-fill-color: inherit;
-    -o-object-fit: fill;
-    object-fit: fill;
-  }
-  
-  .video {
-    position:relative;
-    top:0%;
-    right:0%;
-    bottom: 0%;
-    z-index:auto;
-    width:100%;
-    max-width: 100%;
-    margin-top: 0px;
-    float: none;
-    text-align: left;
-    -o-object-fit: fill;
-    object-fit: fill;
-  }
-  
-  .video2 {
-    position:relative;
-    top:0%;
-    right:0%;
-    bottom: 0%;
-    z-index:auto;
-    width:100%;
-    max-width: 100%;
-    margin-top: 0px;
-    float: none;
-    text-align: left;
     -o-object-fit: fill;
     object-fit: fill;
   }
