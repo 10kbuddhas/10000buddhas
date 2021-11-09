@@ -285,7 +285,7 @@
 .video1 {
   position:relative;
   left:10%;
-  top:1080px;
+  top:0;
   right:0%;
   bottom: 0%;
   z-index:auto;
