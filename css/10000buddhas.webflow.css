@@ -127,7 +127,7 @@
 
 .textbg {
   position: absolute;
-  top: auto;
+  padding-top: -56%;
   display: block;
   overflow: visible;
   width: 50%;
@@ -611,5 +611,18 @@
     -webkit-text-fill-color: inherit;
     -o-object-fit: fill;
     object-fit: fill;
+  }
+  
+  .heading-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: Exo, sans-serif;
+    color: #fff;
+    font-size: 60px;
+    line-height: 60px;
   }
 }
