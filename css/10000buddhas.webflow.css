@@ -594,14 +594,13 @@
   
   .textbg {
     position: relative;
-    top: auto;
-    display: block;
-    overflow: visible;
-    margin-top:0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     float: left;
-    border-radius: 0px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9)));
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     background-clip: border-box;
