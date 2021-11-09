@@ -596,7 +596,7 @@
   
   .textbg {
     position: relative;
-    top: 56%;
+    margin-top: 56%;
     left: 0;
     bottom: 0;
     right: 0;
