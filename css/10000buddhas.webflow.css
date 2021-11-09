@@ -508,7 +508,7 @@
   .bodyheader-copy {
     position: relative;
     width: 100%;
-    margin-top: 1100px;
+    margin-top: 100px;
     margin-bottom: 30px;
     margin-left: 3%;
     float: left;
@@ -540,4 +540,32 @@
     text-decoration: none;
     text-indent: 100px;
   }
+  
+  .bodyimagefull {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: auto;
+    width: 100%;
+    margin-top: 60px;
+    float: none;
+    text-align: left;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+  
+  .text-block-5 {
+    position: relative;
+    top: -48px;
+    width: 100%;
+    margin-left: 0%;
+    float: none;
+    clear: both;
+    font-family: Exo, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
 }
