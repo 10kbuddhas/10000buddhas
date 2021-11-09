@@ -622,7 +622,7 @@
     position:relative;
     width:100%;
     padding-top:100%;
-    overflow:hidden;
+    overflow:visible;
 }
   
   .content{
