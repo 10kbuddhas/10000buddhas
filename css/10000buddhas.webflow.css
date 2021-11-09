@@ -625,7 +625,7 @@
   
   .headermain{
     position:relative;
-    height:auto;
-    width:auto;
-    margin: 0 0 0 0;
+    width:100%;
+    padding-top:100%;
+    overflow:hidden;
 }
