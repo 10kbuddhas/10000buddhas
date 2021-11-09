@@ -599,7 +599,7 @@
     top: auto;
     display: block;
     overflow: visible;
-    padding-top:56%;
+    margin-top:56%;
     width: 100%;
     height: auto;
     float: left;
