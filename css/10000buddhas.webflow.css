@@ -290,6 +290,7 @@
   bottom: 0%;
   z-index:auto;
   width:80%;
+  height: 1080px;
   max-width: 100%;
   margin-top: 0px;
   float: none;
@@ -306,17 +307,13 @@
   bottom: 0%;
   z-index:auto;
   width:80%;
+  height: 1080px;
   max-width: 100%;
   margin-top: 0px;
   float: none;
   text-align: left;
   -o-object-fit: fill;
   object-fit: fill;
-}
-
-.video2.iframe {
-  width:100%;
-  height:100px;
 }
 
 .figure {
