@@ -476,6 +476,11 @@
   object-fit: fill;
 }
 
+.iframe {
+  width: 1920px;
+  height: 1080px;
+}
+
 @media screen and (max-width: 1170px) {
   .bodyheader-copy-main {
     position: relative;
