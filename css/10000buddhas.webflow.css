@@ -580,10 +580,12 @@
   
   .headerimage {
     position: absolute;
-    overflow: visible;
     width: 100%;
-    clear:left;
-    max-height: 100px;
+    height:100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background-image: url('../images/1_intro_edited_lowres.jpg');
     background-position: 0% 0%;
     background-size: fill;
