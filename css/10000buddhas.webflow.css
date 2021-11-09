@@ -457,9 +457,9 @@
 
 @media screen and (max-width: 1170px) {
   .bodyheader-copy-main {
-    position: relative;
+    position: absolute;
     width: 100%;
-    margin-top: 0%;
+    margin-top: 100%;
     margin-bottom: 30px;
     margin-left: 3%;
     float: left;
