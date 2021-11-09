@@ -474,28 +474,21 @@
   object-fit: fill;
 }
 
-@media screen and (max-width: 991px) {
-  .heading-3 {
-    overflow: visible;
-    margin-left: 20px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    line-height: 100%;
-    letter-spacing: 0px;
-    text-indent: 0px;
-    -o-object-fit: scale-down;
-    object-fit: scale-down;
-  }
+@media screen and (max-width: 1170px) {
+  .image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  display: inline;
+  overflow: visible;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  border-style: none;
+  -webkit-text-fill-color: inherit;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
 }
