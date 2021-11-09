@@ -580,12 +580,11 @@
   
   .headerimage {
     position: absolute;
-    bottom: auto;
     overflow: visible;
     width: 100%;
+    clear:left;
     max-height: 100px;
-    margin-bottom: 0px;
-    border-radius: 0px;
+    margin-bottom:300px;
     background-image: url('../images/1_intro_edited_lowres.jpg');
     background-position: 0% 0%;
     background-size: fill;
@@ -600,7 +599,6 @@
     display: block;
     overflow: visible;
     margin-top:0;
-    margin-bottom:300px;
     width: 100%;
     height: auto;
     float: left;
