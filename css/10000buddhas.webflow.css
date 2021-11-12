@@ -389,6 +389,20 @@
   line-height: 30px;
 }
 
+.references-text {
+  position: relative;
+  top: -48px;
+  width: 60%;
+  margin-left: 20%;
+  padding-top: 0px;
+  float: none;
+  clear: both;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .bodyheader-copy {
   position: relative;
   width: 70%;
@@ -413,7 +427,7 @@
   margin-left: 15%;
   float: left;
   clear: left;
-  font-family: Exo, sans-serif;
+  font-family: Courier;
   color: #fff;
   font-size: 40px;
   line-height: 40px;
